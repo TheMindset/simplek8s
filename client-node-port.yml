@@ -1,0 +1,12 @@
+apiVersion: v1 #define a different set of objects we can use
+kind: Service # represent the type of object
+metadata:
+  name: client-node-port
+spec:
+  type: NodePort # Sub-type of the Service object type
+  ports:
+    - port: 3050 # Allow to access to the multi-client Pod from this port
+      targetPort: 3000 # The target port to reach in order to be connected to the multi-client Pod
+      nodePort: 31515 # Port that open the multi-client Pod to the world
+  selector:
+    component: web
