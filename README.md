@@ -1,4 +1,4 @@
-### This project is related to this [Udemy Course (Section 12,13)](https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/), Section 9
+### This project is related to this [Udemy Course (Section 12,13)](https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/)
 
 ### Additional notes
 
